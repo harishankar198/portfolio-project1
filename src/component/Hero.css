@@ -1,0 +1,64 @@
+
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+ 
+}
+
+/* .hero-content{
+    display: flex;
+    flex-direction:column;
+    
+
+} */
+
+.hero h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.hero .title {
+
+        font-size: 2rem;
+        background: linear-gradient(43deg, #f4a4c0, #1a4781, #323033); /* Complete gradient colors */
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent; /* Makes text transparent to show gradient */
+        color: transparent; /* Fallback for other browsers */
+   
+}
+
+.hero p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #bbb;
+    width: 100%;
+    max-width: 700PX;
+    height: 500px;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    margin-bottom:270px;
+    
+}
+
+@media (min-width: 768px) {
+    .hero {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .hero h1 {
+        font-size: 5rem;
+    }
+
+    .hero-image {
+        margin-left: 2rem;
+    }
+}

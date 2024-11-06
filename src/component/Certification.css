@@ -1,0 +1,23 @@
+.cert-main{
+    color:#bbb;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.cert-title{
+    color: #bbb;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.cert-p{
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+}
+.cert-tech{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-top: 10px;
+    color: blueviolet;
+}

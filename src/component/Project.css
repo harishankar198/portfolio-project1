@@ -1,0 +1,37 @@
+.pro-main{
+    color:#bbb;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+
+    
+}
+.pro-title{
+    color: #bbb;
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-left: 46%;
+}
+.pro-p{
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+}
+.pro-tech{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    margin-top: 10px;
+    color: blueviolet;
+}
+.pro-img1{
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
+.pro-text{
+    margin-left: 20px;
+}
+
+
